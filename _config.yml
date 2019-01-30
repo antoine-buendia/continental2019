@@ -3,3 +3,5 @@ layout: default
 ---
  
 Hello!
+plugins:
+  - jekyll-sitemap
