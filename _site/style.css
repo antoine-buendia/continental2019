@@ -1,0 +1,49 @@
+body
+{
+	background: #39A373;
+	color: #333;
+	font-family: "Open Sans", Arial;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}
+footer, header, section
+{
+	background: rgba(20,20,20,0.75);
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #DDD;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+}
+header
+{
+	background:url("fondo.jpg");
+}
+header h1
+{
+	font-family: "Rye", Arial;
+	font-size: 3em;
+	text-shadow: rgba(0,0,0,0.8) 2px 2px 10px;
+	-webkit-transition: all 1s ease-in-out;
+}
+header h1:hover
+{
+	color:#39A373;
+	font-size: 3.2em;
+	text-shadow:#DDD 0px 2px 1px,
+				#DDD 2px 4px 2px,
+				#DDD 4px 6px 3px,
+				#DDD 6px 8px 4px;
+	-webkit-transform: rotate(7deg) rotateX(30deg) skewX(-5deg);
+}
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5em;
+}
